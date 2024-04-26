@@ -7,9 +7,9 @@ const Balance = () => {
     const amounts = transactions.map(transaction => parseFloat(transaction.amount));
 
     const filteredAmounts = amounts.filter(amount => !isNaN(amount));
-    if (filteredAmounts.length === 0) {
-        return <div>No valid transaction amounts found</div>;
-    }
+    // if (filteredAmounts.length === 0) {
+    //     return <div></div>;
+    // }
 
     const total = filteredAmounts.reduce((acc, item) => acc + item, 0).toFixed(2);
   return (

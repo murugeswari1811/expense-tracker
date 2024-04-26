@@ -2,21 +2,21 @@ import React ,{createContext,useReducer} from 'react';
 import AppReducer from "./appreducer";
 const initialState={
     transactions:[
-        {
-            id:1,
-            text:"Flower",
-            amount:"-30"
-        },
-        {
-            id:2,
-            text:"salary",
-            amount:"+1000"
-        },
-        {
-            id:3,
-            text:"clothes",
-            amount:"-300"
-        }
+        // {
+        //     id:1,
+        //     text:"Flower",
+        //     amount:"-30"
+        // },
+        // {
+        //     id:2,
+        //     text:"salary",
+        //     amount:"+1000"
+        // },
+        // {
+        //     id:3,
+        //     text:"clothes",
+        //     amount:"-300"
+        // }
     ]
 }
 export const GlobalContext=createContext(initialState);
