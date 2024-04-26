@@ -14,7 +14,7 @@ const Balance = () => {
     const total = filteredAmounts.reduce((acc, item) => acc + item, 0).toFixed(2);
   return (
     <div>
-      <p className="text-lg text-center">Your Balance</p>
+      <p className="mt-8 text-lg text-center">Your Balance</p>
       <p className="text-green-200 text-m text-center ">Rs {total}</p>
 
     </div>

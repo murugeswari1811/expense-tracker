@@ -31,7 +31,9 @@ const AddTransaction = () => {
                     <label className="text-yellow-300" htmlFor="amount">Amount<br /><span class="text-xs text-white">Expenses (-) Eg:-30  Income (+) Eg: 30 </span></label><br />
                     <input className="text-black px-32 py-2 rounded-full" type="number" placeholder='Enter Amount...' value={amount} onChange={(e) => setAmount(e.target.value)} />
                 </div>
-                <button type="submit" className='text-black ml-40 text-center mt-4 px-16 py-2 bg-yellow-300 rounded-2xl'>Add Transaction</button>
+                <div className='text-center'>
+                <button type="submit" className='text-black  mt-4 px-16 py-2 bg-yellow-300 rounded-2xl'>Add Transaction</button>
+                </div>
             </form>
         </div>
     );
